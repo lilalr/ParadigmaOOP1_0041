@@ -8,3 +8,4 @@ private:
     string nama;
     float nilai;
 
+p
