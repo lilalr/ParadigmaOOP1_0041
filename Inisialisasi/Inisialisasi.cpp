@@ -20,4 +20,8 @@ public:
     }
 };
 
+int main() {
+    Mahasiswa mhs(41, "Lila", 90.5);
 
+    return 0;
+}
