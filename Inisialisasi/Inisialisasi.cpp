@@ -8,4 +8,16 @@ private:
     string nama;
     float nilai;
 
-p
+public:
+    Mahasiswa(int pId, string pNama, float pNilai) :id(pId), nama(pNama), nilai(pNilai) {
+        //Definisi
+    }
+
+    ~Mahasiswa() {
+        cout << "Id     = " << id << endl;
+        cout << "Nama   = " << nama << endl;
+        cout << "Nilai  = " << nilai << endl;
+    }
+};
+
+
