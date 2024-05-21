@@ -1,6 +1,12 @@
 #include <iostream>
+#include <string>
+using namespace std;
 
-int main()
-{
-    std::cout << "Hello World!\n";
+#include "jantung.h"
+#include "manusia.h"
+
+int main() {
+    manusia* varManusia = new manusia("jono");
+    delete varManusia;
+    return 0;
 }
